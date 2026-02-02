@@ -59,6 +59,13 @@ export default function Home() {
             {' '}Sponsorship Opportunities
           </span>
         </h1>
+        <div className="flex justify-center mb-8">
+          <img
+            src="/img/c1.jpg"
+            alt="CineConnect promotional"
+            className="rounded-xl shadow-lg max-h-72 object-cover"
+          />
+        </div>
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
           The premier platform connecting Sri Lankan filmmakers with brands ready to invest in compelling stories
         </p>
