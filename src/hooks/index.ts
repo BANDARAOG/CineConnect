@@ -71,11 +71,15 @@ export const useAuth = () => {
     setLoading(true);
     setError(null);
     const result = await loginUser(email, password);
-    if (result.success) {
-      setUser(result.user);
-      setRole(result.role as 'filmmaker' | 'sponsor');
+    if (result.success && result.user) {
+      // Use the current Firebase user for setUser
+      const currentUser = getCurrentUser ? getCurrentUser() : null;
+      setUser(currentUser);
+      setRole(result.user.role as 'filmmaker' | 'sponsor');
     } else {
-      setError(result.error);
+      setUser(null);
+      setRole(null);
+      setError(result.error?.message || 'Login failed');
     }
     setLoading(false);
     return result;
