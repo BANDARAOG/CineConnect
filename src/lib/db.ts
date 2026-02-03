@@ -305,9 +305,9 @@ export const getUserReviews = async (userId: string) => {
       orderBy('createdAt', 'desc')
     );
     const querySnapshot = await getDocs(q);
-    const reviews = querySnapshot.docs.map(doc => ({
+    const reviews: Review[] = querySnapshot.docs.map(doc => ({
       id: doc.id,
-      ...doc.data(),
+      ...(doc.data() as Omit<Review, 'id'>),
     }));
 
     // Calculate average rating

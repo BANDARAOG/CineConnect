@@ -21,7 +21,7 @@ export interface Filmmaker extends User {
   fullName: string;
   nicNumber?: string;
   studentId?: string;
-  role: 'director' | 'producer' | 'student' | 'independent';
+  filmmakerRole: 'director' | 'producer' | 'student' | 'independent';
   pastWorks: string[]; // URLs to portfolio (YouTube, Vimeo, etc)
   verified: boolean;
   profileImage?: string;
