@@ -112,28 +112,28 @@ export default function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-red-950/20 border border-red-700/30 rounded-lg p-8">
-            <div className="text-4xl mb-4">🎯</div>
+            <div className="text-4xl mb-4">⚪️</div>
             <h3 className="text-2xl font-bold mb-3">Brand Visibility</h3>
             <p className="text-gray-300">
               Reach millions of viewers and build brand awareness through authentic storytelling and creative content partnerships.
             </p>
           </div>
           <div className="bg-red-950/20 border border-red-700/30 rounded-lg p-8">
-            <div className="text-4xl mb-4">💡</div>
+            <div className="text-4xl mb-4">⚪️</div>
             <h3 className="text-2xl font-bold mb-3">Innovation & Creativity</h3>
             <p className="text-gray-300">
               Be part of groundbreaking filmmaking projects that push creative boundaries and tell impactful stories.
             </p>
           </div>
           <div className="bg-red-950/20 border border-red-700/30 rounded-lg p-8">
-            <div className="text-4xl mb-4">📊</div>
+            <div className="text-4xl mb-4">⚪️</div>
             <h3 className="text-2xl font-bold mb-3">ROI & Analytics</h3>
             <p className="text-gray-300">
               Track your investment with detailed analytics, audience insights, and measurable brand impact metrics.
             </p>
           </div>
           <div className="bg-red-950/20 border border-red-700/30 rounded-lg p-8">
-            <div className="text-4xl mb-4">🌟</div>
+            <div className="text-4xl mb-4">⚪️</div>
             <h3 className="text-2xl font-bold mb-3">Community Impact</h3>
             <p className="text-gray-300">
               Support local Sri Lankan talent and contribute to the growth of the creative industry while building your brand legacy.
